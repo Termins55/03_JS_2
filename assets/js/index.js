@@ -22,7 +22,10 @@ console.log(map1.get(2));
 console.log(map1.has(2));
 // Отримайте список ключів та значень окремо.
 
-map1.forEach((value, key) => console.log(key, value));
+// map1.forEach((value, key) => console.log(key, value));
+
+console.log([...map1.keys()]);
+console.log([...map1.values()]);
 
 // 2. *Написати функцію, яка перероблятиме текст з числами
 // "This year I will enter the 1 grade. I have two brothers. I am the 3 child of my parents."
